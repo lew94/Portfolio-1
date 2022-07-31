@@ -1,3 +1,22 @@
-.test {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+    font-weight: bold;
+    color: #c5c6c7;
+    background-color: #1f2833;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #66fcf1;
 }
