@@ -20,3 +20,28 @@ h1 {
     letter-spacing: 4px;
     color: #66fcf1;
 }
+
+/* index page heading */
+#heading-image {
+    background: url(../images/pexels-erik-mclean-7547531.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#heading-logo {
+    text-align: center;
+    position: absolute;
+    font-size: larger;
+    top: 20%;
+    left: 50%;
+    padding-top: 45px;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: #45a29e;
+    height: 100px;
+    width: 400px;
+    background-color: rgba(197, 198, 199, .8);
+}
