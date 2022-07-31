@@ -45,3 +45,23 @@ h1 {
     width: 400px;
     background-color: rgba(197, 198, 199, .8);
 }
+
+#heading-links li {
+    float: left;
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+#heading-links a {
+    text-decoration: none;
+    font-size: larger;
+    color: #c5c6c7;
+
+}
+
+#heading-links a:hover {
+    background-color: rgba(102, 252, 241, .4);
+}
