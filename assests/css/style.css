@@ -131,3 +131,9 @@ h2 {
     letter-spacing: 1px;
     font-weight: bold;
 }
+
+/* privacy style */
+.privacy-policy-main {
+    display: flex;
+    justify-content: center;
+}
