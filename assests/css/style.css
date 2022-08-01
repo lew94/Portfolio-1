@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@100&display=swap');
 
+/* Setting default styling rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,8 @@ body {
     background-color: #1f2833;
 }
 
-h1 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -64,8 +67,11 @@ h1 {
 
 #heading-links a:hover {
     background-color: rgba(102, 252, 241, .4);
+    padding: 5px;
+    border-radius: 5%;
 }
 
+/* Navbar styling */
 /* Icon Bounce resource from https://github.com/IanLunn/Hover */
 .hvr-icon-bounce {
     display: inline-block;
@@ -95,4 +101,25 @@ h1 {
     transform: scale(1.5);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* Email sign-up styling */
+
+.email-sign-up {
+    display: block;
+    color: #1f2833;
+    text-align: center;
+    border-style: solid;
+    border-color: #45a29e;
+    background-color: rgba(197, 198, 199, .8);
+    width: 350px;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+}
+
+#email-form>p {
+    font-size: larger;
+    padding: 25px;
+    font-weight: 900;
 }
