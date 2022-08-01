@@ -116,10 +116,18 @@ h2 {
     position: relative;
     float: right;
     margin-right: 50px;
+    margin-top: 35px;
 }
 
 #email-form>p {
     font-size: larger;
     padding: 25px;
     font-weight: 900;
+}
+
+::placeholder {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
