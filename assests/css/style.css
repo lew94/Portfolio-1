@@ -47,16 +47,24 @@ h3 {
 #heading-logo {
     text-align: center;
     position: absolute;
-    font-size: larger;
     top: 20%;
     left: 50%;
     padding-top: 45px;
     transform: translate(-50%, -50%);
     border-style: solid;
     border-color: #45a29e;
-    height: 100px;
-    width: 400px;
-    background-color: rgba(197, 198, 199, .8);
+    border-radius: 5px;
+    height: 120px;
+    width: 501px;
+    background-color: rgba(197, 198, 199, .5)
+}
+
+#logo {
+    font-size: 45px;
+}
+
+#heading-link {
+    text-decoration: none;
 }
 
 /* nav bar links style */
@@ -120,10 +128,12 @@ h3 {
 
 .email-sign-up {
     display: block;
+    padding: 20px;
     color: #1f2833;
     text-align: center;
     border-style: solid;
-    border-color: #45a29e;
+    border: 4px solid #45a29e;
+    border-radius: 5px;
     background-color: rgba(197, 198, 199, .8);
     width: 350px;
     position: relative;
@@ -132,17 +142,51 @@ h3 {
     margin-top: 35px;
 }
 
+#email-form>h2 {
+    font-size: 40px;
+}
+
 #email-form>p {
-    font-size: larger;
+    font-size: 25px;
     padding: 25px;
     font-weight: 900;
 }
 
+#email-textbox {
+    width: 250px;
+    height: 31px;
+    text-align: center;
+    border: 3px solid #45a29e;
+    border-radius: 5px;
+}
+
 ::placeholder {
-    font-family: Oswald, sans-serif;
+    font-family: barlow-condensed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
+    font-size: 16px;
+    color: #1f2833;
+    opacity: .5;
+}
+
+#sign-up {
+    width: 328px;
+    height: 39px;
+    margin-top: 10px;
+    color: #45a29e;
+    background-color: #1f2833;
+    font-family: barlow-condensed, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 23px;
+    border: 2px solid #fff;
+    border-radius: 60px;
+}
+
+#privacy-link {
+    margin-top: 10px;
 }
 
 /* privacy.html style */
