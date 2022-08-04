@@ -92,6 +92,10 @@ h3 {
 
 }
 
+.highlight {
+    border-bottom: 2px solid #45a29e;
+}
+
 /* Navbar animation */
 /* Icon Bounce resource from https://github.com/IanLunn/Hover */
 .hvr-icon-bounce {
