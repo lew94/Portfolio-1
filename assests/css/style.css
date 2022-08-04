@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@100&display=swap');
 
+@font-face {
+    font-family: barlow-condensed;
+    src: url(../fonts/barlow-condensed.semibold.ttf);
+}
+
 /* Setting default styling rules */
 
 * {
@@ -7,6 +12,7 @@
     padding: 0;
     border: none;
 }
+
 
 body {
     font-family: Lato, sans-serif;
@@ -19,7 +25,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Oswald, sans-serif;
+    font-family: barlow-condensed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #66fcf1;
