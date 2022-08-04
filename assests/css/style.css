@@ -26,6 +26,8 @@ h3 {
 }
 
 /* index page heading */
+
+/* heding image style */
 #heading-image {
     background: url(../images/pexels-erik-mclean-7547531.jpg);
     height: 400px;
@@ -35,6 +37,7 @@ h3 {
     position: relative;
 }
 
+/* heading logo style */
 #heading-logo {
     text-align: center;
     position: absolute;
@@ -50,12 +53,14 @@ h3 {
     background-color: rgba(197, 198, 199, .8);
 }
 
+/* nav bar links style */
 #heading-links li {
     float: left;
     display: block;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
     letter-spacing: 2px;
+
 
 }
 
@@ -63,16 +68,17 @@ h3 {
     text-decoration: none;
     font-size: larger;
     color: #c5c6c7;
+    padding: 10px;
+
 
 }
 
 #heading-links a:hover {
     background-color: rgba(102, 252, 241, .4);
-    padding: 5px;
-    border-radius: 5%;
+
 }
 
-/* Navbar styling */
+/* Navbar animation */
 /* Icon Bounce resource from https://github.com/IanLunn/Hover */
 .hvr-icon-bounce {
     display: inline-block;
@@ -133,7 +139,7 @@ h3 {
     font-weight: bold;
 }
 
-/* privacy style */
+/* privacy.html style */
 #privacy-style {
     display: block;
     text-align: center;
