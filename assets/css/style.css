@@ -33,7 +33,7 @@ h3 {
 
 /* index page heading */
 
-/* heding image style */
+/* heading image style */
 #heading-image {
     background: url(../images/pexels-erik-mclean-7547531.jpg);
     height: 400px;
@@ -95,6 +95,7 @@ h3 {
 .highlight {
     border-bottom: 2px solid #45a29e;
 }
+
 
 /* Navbar animation */
 /* Icon Bounce resource from https://github.com/IanLunn/Hover */
@@ -215,4 +216,43 @@ h3 {
 li {
     text-align: center;
     list-style-position: inside;
+}
+
+/* Footer styles */
+#footer-main {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #3a3a3a;
+    text-align: center;
+    min-height: 50px;
+
+}
+
+#foot-text>h3 {
+    display: block;
+    text-align: left;
+
+}
+
+.list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-icon>li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+#icon-color {
+    font-size: 30px;
+    color: #45a29e;
+    padding: 25px;
+    text-align: center;
+    padding: 0 20px;
 }
