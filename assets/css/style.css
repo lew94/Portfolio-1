@@ -68,6 +68,11 @@ h3 {
 }
 
 /* nav bar links style */
+
+.navbar {
+    height: 74px;
+}
+
 #heading-links li {
     float: left;
     display: block;
@@ -144,7 +149,7 @@ h3 {
     position: relative;
     float: right;
     margin-right: 50px;
-    margin-top: 35px;
+
 }
 
 #email-form>h2 {
@@ -218,13 +223,23 @@ li {
     list-style-position: inside;
 }
 
+/* index.html main image box */
+.main-image-box {
+    background: url(../images/smooth-sea.jpg) no-repeat center center;
+    height: 600px;
+    width: 65%;
+    object-fit: contain;
+    clear: left;
+    margin-left: 25px;
+}
+
 /* Footer styles */
 #footer-main {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 7%;
+    height: 55px;
     background-color: #3a3a3a;
     text-align: center;
     min-height: 50px;
@@ -241,7 +256,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .list-icon>li {
@@ -250,7 +265,7 @@ li {
 }
 
 #icon-color {
-    font-size: 30px;
+    font-size: 24px;
     color: #45a29e;
     padding: 25px;
     text-align: center;
