@@ -35,10 +35,10 @@ h3 {
 
 /* heading image style */
 #heading-image {
-    background: url(../images/pexels-erik-mclean-7547531.jpg);
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../images/pexels-erik-mclean-7547531.jpg) no-repeat center center;
+    height: 325px;
+    width: 100%;
+    object-fit: contain;
     background-size: cover;
     position: relative;
 }
@@ -47,8 +47,8 @@ h3 {
 #heading-logo {
     text-align: center;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 15%;
+    left: 49%;
     padding-top: 45px;
     transform: translate(-50%, -50%);
     border-style: solid;
@@ -271,3 +271,7 @@ li {
     text-align: center;
     padding: 0 20px;
 }
+
+
+
+/* RELAXATION ZONE STYLES */
