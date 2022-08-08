@@ -275,3 +275,62 @@ li {
 
 
 /* RELAXATION ZONE STYLES */
+.audio-files {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#audio-tracks {
+    list-style: none;
+}
+
+.mp3-collection-1 {
+    background-image: url(../images/fireplace.jpg);
+    background-size: 509px;
+    background-repeat: no-repeat, repeat;
+    background-color: yellow;
+    height: 100%;
+    width: 15%;
+    padding: 60px;
+    padding-left: 134px;
+    padding-bottom: 95px;
+    margin-left: 141px;
+    margin-top: 71px;
+}
+
+audio#track-1 {
+    position: relative;
+    left: -30px;
+    top: 140px;
+}
+
+.mp3-collection-2 {
+    background-image: url(../images/new-fire.jpg);
+    background-size: 509px;
+    background-repeat: no-repeat, repeat;
+    background-color: yellow;
+    height: 100%;
+    width: 15%;
+    padding: 60px;
+    padding-left: 134px;
+    padding-bottom: 95px;
+    margin-left: 141px;
+    margin-top: 71px;
+}
+
+#text-image {
+    margin-top: 100px;
+}
+
+/* Second option for audio and image combo */
+#track-image1 {
+    width: 50%;
+    height: 442px;
+    padding-top: 65px;
+}
+
+#mp3-player {
+    background-color: yellow;
+    position: relative;
+    right: 406px;
+}
