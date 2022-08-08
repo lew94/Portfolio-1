@@ -305,7 +305,7 @@ audio#track-1 {
 }
 
 .mp3-collection-2 {
-    background-image: url(../images/new-fire.jpg);
+    background-image: url(../images/beach.jpg);
     background-size: 509px;
     background-repeat: no-repeat, repeat;
     background-color: yellow;
@@ -323,14 +323,31 @@ audio#track-1 {
 }
 
 /* Second option for audio and image combo */
+#list-tracks {
+    list-style: none;
+    padding: 44px;
+    margin: -26px;
+    width: 468px;
+    margin-left: 110px;
+    position: relative;
+    top: 113px;
+    left: 28px;
+
+}
+
+.new-style {
+    display: flex;
+    flex-flow: wrap;
+}
+
 #track-image1 {
-    width: 50%;
-    height: 442px;
-    padding-top: 65px;
+    width: 100%;
+    height: 392px;
+
 }
 
 #mp3-player {
-    background-color: yellow;
     position: relative;
-    right: 406px;
+    right: 10px;
+    bottom: 39px;
 }
