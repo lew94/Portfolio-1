@@ -98,8 +98,9 @@ h3 {
 
 }
 
-.highlight {
+#highlight>a {
     border-bottom: 2px solid #45a29e;
+    color: #66fcf1;
 }
 
 
@@ -286,24 +287,21 @@ li {
 
 #list-tracks {
     list-style: none;
-    width: 468px;
-    padding: 10px 10px 0 10px;
+    width: 416px;
 }
 
 .new-style {
     display: flex;
     flex-flow: wrap;
-    background-color: rgba(197, 198, 199, 0.7);
-    border: 5px solid #66fcf1;
-    border-radius: 47px;
-    background-size: contain;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    background-size: contain
 }
 
 #track-image {
-    width: 100%;
-    height: 392px;
-    border-radius: 22px;
-    border: 5px solid #45a29e;
+    width: 52%;
+    height: 209px;
+    border-radius: 6px;
 }
 
 #mp3-player {
