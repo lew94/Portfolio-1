@@ -26,7 +26,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: barlow-condensed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -333,6 +334,12 @@ audio::-webkit-media-controls-panel {
 }
 
 /* privacy.html style */
+#privacy-heading {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
 .privacy-style {
     display: block;
     margin-bottom: 5%;
@@ -349,6 +356,12 @@ audio::-webkit-media-controls-panel {
 
 h3[id^="policy-"] {
     text-align: center;
+    font-size: 33px;
+}
+
+
+h4 {
+    font-size: 19px;
 }
 
 .policy-text-style {
@@ -358,6 +371,7 @@ h3[id^="policy-"] {
 #table-of-contents {
     text-align: center;
     list-style-position: inside;
+    line-height: 43px;
 }
 
 .li-style {
@@ -365,6 +379,11 @@ h3[id^="policy-"] {
     list-style-position: inside;
     margin: 13px 0;
 
+}
+
+.fa-hashnode {
+    font-size: large;
+    color: #66fcf1;
 }
 
 .imbedded-ul {
@@ -386,7 +405,9 @@ h3[id^="policy-"] {
 }
 
 :target {
-    background-color: rgba(197, 198, 199, .8);
+    background-color: rgba(197, 198, 199, .3);
+    border-radius: 6px;
+    padding: 13px;
 }
 
 /* return to contents list link */
