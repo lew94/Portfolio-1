@@ -33,7 +33,9 @@ h4 {
     color: #66fcf1;
 }
 
-/* TRYING BOOTSTRAP GRID FOR IMAGE */
+
+
+/* Header Image and H1 */
 
 .heading-content {
     background: url(../images/heading.jpg) no-repeat center center;
@@ -43,8 +45,11 @@ h4 {
     background-size: cover;
 }
 
+
 .h1-text {
-    border: 3px solid #45a29e;
+    text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px black,
+        0px 0px 20px black;
+    border: 5px solid #45a29e;
     border-radius: 5px;
     background-color: rgba(197, 198, 199, 0.6);
     margin-top: 53px;
@@ -54,42 +59,27 @@ h4 {
     padding-top: 40px;
 }
 
-
 #heading-link {
     text-decoration: none;
 }
 
+
+
 /* nav bar links style */
 
-.navbar {
-    height: 74px;
-}
-
-#heading-links li {
-    float: left;
-    display: block;
-    margin-left: 50px;
-    margin-top: 15px;
-    letter-spacing: 2px;
-
-
-}
-
-#heading-links a {
-    text-decoration: none;
+.nav-link {
     font-size: larger;
     color: #c5c6c7;
-    padding: 10px;
-
-
+    padding: 16px;
+    margin-bottom: 20px;
 }
 
-#heading-links a:hover {
+.nav-link:hover {
     background-color: rgba(102, 252, 241, .4);
-
+    color: white;
 }
 
-#highlight>a {
+.active {
     border-bottom: 2px solid #45a29e;
     color: #66fcf1;
 }
@@ -125,6 +115,48 @@ h4 {
     transform: scale(1.5);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+/* Footer styles */
+#footer-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #3a3a3a;
+    min-height: 50px;
+
+}
+
+.page-footer {
+    background-color: #3a3a3a;
+    width: 100%;
+    min-height: 52px;
+    padding-top: 8px;
+
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-link {
+    font-size: 32px;
+    color: #66fcf1;
+    padding-right: 30px;
+}
+
+.footer-text {
+    font-family: barlow-condensed, sans-serif;
+    color: #66fcf1;
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+    left: 50px;
 }
 
 
@@ -213,42 +245,6 @@ h4 {
     object-fit: contain;
     clear: left;
     margin-left: 25px;
-}
-
-/* Footer styles */
-#footer-main {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #3a3a3a;
-    min-height: 50px;
-
-}
-
-#foot-text>h3 {
-    display: block;
-    text-align: left;
-
-}
-
-.list-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.list-icon>li {
-    display: inline-block;
-    font-size: 15px;
-}
-
-#icon-color {
-    font-size: 24px;
-    color: #45a29e;
-    padding: 25px;
-    text-align: center;
-    padding: 0 20px;
 }
 
 
