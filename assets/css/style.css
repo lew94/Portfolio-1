@@ -20,8 +20,7 @@ body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
     font-weight: bold;
-    color: #c5c6c7;
-    background-color: #1f2833 !important;
+    background-color: #1f2833;
 }
 
 h1,
@@ -34,37 +33,27 @@ h4 {
     color: #66fcf1;
 }
 
-/* index page heading */
+/* TRYING BOOTSTRAP GRID FOR IMAGE */
 
-/* heading image style */
-#heading-image {
-    background: url(../images/pexels-erik-mclean-7547531.jpg) no-repeat center center;
-    height: 325px;
+.heading-content {
+    background: url(../images/heading.jpg) no-repeat center center;
     width: 100%;
+    height: 325px;
     object-fit: contain;
     background-size: cover;
-    position: relative;
 }
 
-/* heading logo style */
-#heading-logo {
-    text-align: center;
-    position: absolute;
-    top: 15%;
-    left: 49%;
-    padding-top: 45px;
-    transform: translate(-50%, -50%);
-    border-style: solid;
-    border-color: #45a29e;
+.h1-text {
+    border: 3px solid #45a29e;
     border-radius: 5px;
-    height: 120px;
-    width: 501px;
-    background-color: rgba(197, 198, 199, .5)
+    background-color: rgba(197, 198, 199, 0.6);
+    margin-top: 53px;
+    margin-left: 36%;
+    margin-right: 38%;
+    height: 147px;
+    padding-top: 40px;
 }
 
-#logo {
-    font-size: 45px;
-}
 
 #heading-link {
     text-decoration: none;
@@ -137,6 +126,9 @@ h4 {
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
+
+
+/* index page heading */
 
 /* Email sign-up styling */
 
