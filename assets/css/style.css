@@ -33,6 +33,9 @@ h4 {
     color: #66fcf1;
 }
 
+p {
+    color: white;
+}
 
 
 /* Header Image and H1 */
@@ -360,6 +363,18 @@ h4 {
 
 /* Styling for self-improvement.html */
 
+#feelings-pad {
+    border: 5px solid #45a29e;
+    border-radius: 5px;
+    height: 450px;
+    justify-content: center;
+}
+
+#remove-text {
+    margin-top: 5px;
+
+}
+
 .container {
     margin-top: 60px;
     margin-left: 5% !important;
@@ -380,8 +395,8 @@ h4 {
     font-size: 21px;
     font-weight: 400;
     text-align: left;
-    margin: 5%;
-    width: 95%;
+    margin: 2%;
+    width: 90%;
 }
 
 .contents-style {
