@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @font-face {
     font-family: barlow-condensed;
@@ -143,12 +143,12 @@ h4 {
 .email-sign-up {
     display: block;
     padding: 20px;
-    color: #1f2833;
+    color: white;
     text-align: center;
     border-style: solid;
     border: 4px solid #45a29e;
     border-radius: 5px;
-    background-color: rgba(197, 198, 199, .8);
+    background-color: #3a3a3a;
     width: 350px;
     position: relative;
     float: right;
@@ -373,10 +373,35 @@ h4 {
 /* Styling for self-improvement.html */
 
 .container {
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-left: 5% !important;
 }
 
-.col-3>img {
+#audio-text {
+    color: white;
+    background-color: #3a3a3a;
+    border: 4px solid #45a29e;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+}
+
+#audio-text>p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    margin: 5%;
+    width: 95%;
+}
+
+.contents-style {
+    margin-top: 5px !important;
+    width: 1226px;
+}
+
+.col-4>img {
     object-fit: cover;
     width: 100%;
     height: 200px;
@@ -384,17 +409,15 @@ h4 {
     border-radius: 10px 10px 0 0;
 }
 
-.col-3>audio {
+.col-4>audio {
     background-color: #45a29e;
-    width: 306px;
-    border-radius: 0;
-    border: 1px solid;
+    width: 100%;
+
 }
 
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
     background-color: #45a29e;
-    border-radius: 0;
     border: 1px solid;
 
 }
