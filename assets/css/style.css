@@ -455,20 +455,40 @@ audio::-webkit-media-controls-panel {
 
 
 /* Contact form page contact.html */
-
-.contact-form {
-    display: table;
-    border: 3px solid #66fcf1;
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    color: white;
-    position: relative;
-    left: 25%;
-    height: 600px;
-    box-sizing: border-box;
+.contact {
+    text-align: center;
 }
 
+.form-style {
+    display: inline-block;
+}
+
+.form {
+    align-items: center;
+    background-color: #45a29e;
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+}
+
+.form-inputs {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
 
 
 
