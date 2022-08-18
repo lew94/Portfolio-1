@@ -426,6 +426,20 @@ audio::-webkit-media-controls-panel {
     justify-content: center;
 }
 
+.rounded {
+    border: 10px solid #45a29e;
+}
+
+#fix-gif {
+    height: 498px;
+}
+
+.youtube-style {
+    border: 10px solid #45a29e;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
 /* Create four equal columns that sits next to each other */
 .gif-assets {
     flex: 25%;
@@ -443,12 +457,16 @@ audio::-webkit-media-controls-panel {
 /* Contact form page contact.html */
 
 .contact-form {
+    display: table;
     border: 3px solid #66fcf1;
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
     color: white;
+    position: relative;
+    left: 25%;
+    height: 600px;
+    box-sizing: border-box;
 }
 
 
