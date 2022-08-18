@@ -38,61 +38,69 @@
     </header>
 
 
-    <!-- <form action="submission.html" class="contact-form">
-        <div class="form-inputs">
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-        </div>
-        <div class="form-inputs">
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-        </div>
-        <div class="form-inputs">
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-        </div>
-        <div class="form-inputs">
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-        </div>
-        <div class="form-inputs">
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-        </div>
-        <div class="form-inputs">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form> -->
-    <section class="form-style">
-        <div class="form">
-            <div class="title">Welcome</div>
-            <div class="subtitle">Let's create your account!</div>
-            <div class="input-container ic1">
-                <input id="firstname" class="input" type="text" placeholder=" " />
-                <div class="cut"></div>
-                <label for="firstname" class="placeholder">First name</label>
+    <div class="container p-5 form-style mb-5">
+        <form action="submission.html">
+            <div class="row vstack">
+                <div class="col d-flex justify-content-center">
+                    <h2 class="form-title">Contact Us</h2>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="subtitle">
+                        <p>
+                            If you have any questions or Just need some more help, please do fill-out the form
+                            bellow
+                            and we will get back to you.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="input-container ic2">
-                <input id="lastname" class="input" type="text" placeholder=" " />
-                <div class="cut"></div>
-                <label for="lastname" class="placeholder">Last name</label>
+            <div class="row vstack">
+                <div class="col d-flex justify-content-center mt-3">
+                    <label for="fname" class="label_placeholder">First Name</label>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <input id="fname" class="input" type="text" placeholder=" " />
+                </div>
             </div>
-            <div class="input-container ic2">
-                <input id="email" class="input" type="text" placeholder=" " />
-                <div class="cut cut-short"></div>
-                <label for="email" class="placeholder">Email</>
+
+            <div class="row vstack">
+                <div class="col d-flex justify-content-center mt-3">
+                    <label for="lastname" class="label_placeholder">Last name</label>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <input id="lname" class="input" type="text" placeholder=" " />
+                </div>
             </div>
-            <button type="text" class="submit">submit</button>
-        </div>
-    </section>
+
+            <div class="row vstack">
+                <div class="col d-flex justify-content-center mt-3">
+                    <label for="email" class="label_placeholder">Email</label>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <input id="email" class="input" type="email" placeholder=" " />
+                </div>
+            </div>
 
 
+            <div class="row vstack">
+                <div class="col d-flex justify-content-center mt-3">
+                    <h2 class="form-title">Did You Enjoy Our Site</h2>
+                </div>
+                <div class="col d-flex justify-content-center mt-3">
+                    <textarea class="input" id="textarea" placeholder="leave us a little message... "></textarea>
+                </div>
+            </div>
+            <div class="row vstack mt-5">
+                <div class="col d-flex justify-content-center">
+                    <!-- Using external source for submit animation -->
+                    <button type="text" class="submit btn">submit</button>
+                </div>
+            </div>
+
+    </div>
 
 
-
-
-
-    <div class="container">
+    <div class="container mt-5">
         <footer class="page-footer fixed-bottom">
             <section class="d-flex justify-content-md-center">
 
