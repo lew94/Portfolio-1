@@ -444,7 +444,11 @@ audio::-webkit-media-controls-panel {
 
 .contact-form {
     border: 3px solid #66fcf1;
-    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: white;
 }
 
 
