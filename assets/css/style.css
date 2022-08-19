@@ -15,6 +15,13 @@
 
 }
 
+.image-width,
+img,
+audio {
+    width: 100%;
+    object-fit: contain;
+
+}
 
 
 body {
@@ -43,11 +50,13 @@ p {
 /* Header Image and H1 */
 
 .heading-content {
-    background: url(../images/heading.jpg) no-repeat center center;
-    width: 100%;
+    /* background: url(../images/heading.jpg) no-repeat center center; */
+    background: url(../images/heading.jpg);
+    background-size: cover;
+    /* width: 100%;
     height: 325px;
     object-fit: contain;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
@@ -57,11 +66,11 @@ p {
     border: 5px solid #45a29e;
     border-radius: 5px;
     background-color: rgba(197, 198, 199, 0.6);
-    margin-top: 53px;
+    /* margin-top: 53px;
     margin-left: 36%;
     margin-right: 38%;
     height: 147px;
-    padding-top: 40px;
+    padding-top: 40px; */
 }
 
 #heading-link {
@@ -149,20 +158,9 @@ p {
     align-items: center;
 }
 
-.foot-link {
-    font-size: 32px;
-    color: #66fcf1;
-    padding-right: 30px;
-}
 
-.footer-text {
-    font-family: barlow-condensed, sans-serif;
-    color: #66fcf1;
-    font-size: 21px;
-    text-align: center;
-    position: relative;
-    left: 50px;
-}
+
+
 
 
 /* index page heading */
@@ -170,21 +168,58 @@ p {
 /* Email sign-up styling */
 
 .email-sign-up {
-    display: block;
     padding: 20px;
     color: white;
-    text-align: center;
     border-style: solid;
     border: 4px solid #45a29e;
     border-radius: 5px;
     background-color: #3a3a3a;
-    width: 350px;
-    position: relative;
-    float: right;
     margin-right: 50px;
+    height: auto;
+    width: 80%;
 
 }
 
+.su-text {
+    font-size: 3vh;
+    padding: 31px;
+}
+
+#sign-up {
+    width: 90%;
+    height: 39px;
+    margin-top: 10px;
+    color: #66fcf1;
+    background-color: #1f2833;
+    font-family: barlow-condensed, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 2vh;
+    border: 2px solid #fff;
+    border-radius: 60px;
+}
+
+#email-textbox {
+    width: 80%;
+    height: 31px;
+    text-align: center;
+    border: 3px solid #45a29e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.welcome-screen {
+    font-size: 24px;
+
+}
+
+.welcome-text {
+    text-align: right;
+    margin-bottom: 20px
+}
+
+/* 
 #email-form>h2 {
     font-size: 40px;
 }
@@ -195,13 +230,7 @@ p {
     font-weight: 900;
 }
 
-#email-textbox {
-    width: 250px;
-    height: 31px;
-    text-align: center;
-    border: 3px solid #45a29e;
-    border-radius: 5px;
-}
+
 
 ::placeholder {
     font-family: barlow-condensed, sans-serif;
@@ -226,7 +255,7 @@ p {
     font-size: 23px;
     border: 2px solid #fff;
     border-radius: 60px;
-}
+} */
 
 #privacy-link {
     margin-top: 10px;
@@ -392,7 +421,7 @@ h4 {
 
 .contents-style {
     margin-top: 5px !important;
-    width: 1226px;
+    margin-right: 8vh;
 }
 
 .col-4>img {
@@ -482,14 +511,14 @@ audio::-webkit-media-controls-panel {
     font-size: 20px;
 }
 
-.label_placeholder {
+/* .label_placeholder {
     display: inline-block;
     min-height: 1em;
     vertical-align: middle;
     font-size: 23px;
     font-family: Lato, sans-serif;
     color: #45a29e;
-}
+} */
 
 .input {
     border-radius: 5px;
@@ -566,4 +595,55 @@ textarea {
     height: 400px;
     border: 5px solid #45a29e;
     border-radius: 50% 50% 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TESTING COME BACK AND DEL AFTER */
+
+
+.header {
+    background: url(../images/heading.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    color: #66fcf1;
+    text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px black,
+        0px 0px 20px black;
+}
+
+.h1-style {
+    border: 5px solid #45a29e;
+    border-radius: 5px;
+    background-color: rgba(197, 198, 199, 0.6);
+    padding: 5%;
+}
+
+.foot-color {
+    background-color: #3a3a3a;
+    height: 6vh;
+
+}
+
+.foot-link {
+    font-size: 37px;
+    color: #66fcf1;
+}
+
+.footer-style {
+
+    background-color: #3a3a3a;
 }
