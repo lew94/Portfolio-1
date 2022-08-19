@@ -47,6 +47,7 @@
                     <div class="col d-flex justify-content-center">
                         <h2 class="form-title">Contact Us</h2>
                     </div>
+
                     <div class="col d-flex justify-content-center">
                         <div class="subtitle">
                             <p>
@@ -57,21 +58,22 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row vstack">
                     <div class="col d-flex justify-content-center mt-3">
                         <label for="fname" class="label_placeholder">First Name</label>
                     </div>
                     <div class="col d-flex justify-content-center">
-                        <input id="fname" class="input" type="text" placeholder=" " />
+                        <input required id="fname" class="input" type="text" placeholder=" " />
                     </div>
                 </div>
 
                 <div class="row vstack">
                     <div class="col d-flex justify-content-center mt-3">
-                        <label for="lastname" class="label_placeholder">Last name</label>
+                        <label for="lname" class="label_placeholder">Last name</label>
                     </div>
                     <div class="col d-flex justify-content-center">
-                        <input id="lname" class="input" type="text" placeholder=" " />
+                        <input required id="lname" class="input" type="text" placeholder=" " />
                     </div>
                 </div>
 
@@ -80,7 +82,7 @@
                         <label for="email" class="label_placeholder">Email</label>
                     </div>
                     <div class="col d-flex justify-content-center">
-                        <input id="email" class="input" type="email" placeholder=" " />
+                        <input required id="email" class="input" type="email" placeholder=" " />
                     </div>
                 </div>
 
@@ -90,16 +92,17 @@
                         <h2 class="form-title">Did You Enjoy Our Site</h2>
                     </div>
                     <div class="col d-flex justify-content-center mt-3">
-                        <textarea class="input" id="textarea" placeholder="leave us a little message... "></textarea>
+                        <textarea class="input" required id="textarea"
+                            placeholder="leave us a little message... "></textarea>
                     </div>
                 </div>
                 <div class="row vstack mt-5">
                     <div class="col d-flex justify-content-center">
                         <!-- Using external source for submit animation -->
-                        <button type="text" class="submit btn">submit</button>
+                        <button class="submit btn">submit</button>
                     </div>
                 </div>
-
+            </form>
         </div>
     </div>
 
@@ -111,9 +114,9 @@
                 <div class="col-md-6 d-inline-flex">
                     <h2>Check Out Our Social Pages:</h2>
                 </div>
-                <section class="col-md-6 p-3 ">
+                <div class="col-md-6 p-3 ">
                     <a href="https://www.facebook.com/" target="_blank"><i
-                            class="foot-link fa-brands fa-square-facebook m-1"></i></a>
+                            class=" foot-link fa-brands fa-square-facebook m-1"></i></a>
 
                     <a href="https://www.instagram.com/?hl=en" target="_blank"><i
                             class="foot-link fa-brands fa-square-instagram m-1"></i></a>
@@ -127,7 +130,7 @@
                     <a href="https://github.com/lew94/Portfolio-1" target="_blank"><i
                             class="foot-link fa-brands fa-square-github m-1"></i></a>
 
-                </section>
+                </div>
             </div>
 
         </div>
