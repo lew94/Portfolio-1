@@ -19,10 +19,8 @@
 img,
 audio {
     width: 100%;
-    object-fit: contain;
-
+    /* object-fit: contain; */
 }
-
 
 body {
     font-family: Lato, sans-serif;
@@ -32,6 +30,33 @@ body {
 
 }
 
+.player-s>img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #45a29e;
+    border-radius: 10px 10px 0 0;
+}
+
+.player-s>audio {
+    background-color: #45a29e;
+    width: 100%;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 h1,
 h2,
 h3,
@@ -207,11 +232,17 @@ p {
     border: 3px solid #45a29e;
     border-radius: 5px;
     margin-bottom: 10px;
+    justify-content: center;
+    width: 80%;
 }
 
 .welcome-screen {
+    margin-top: 10px;
     font-size: 24px;
-
+    border: 5px solid #45a29e;
+    border-radius: 5px;
+    width: 85%;
+    background-color: #3a3a3a;
 }
 
 .welcome-text {
@@ -272,14 +303,14 @@ p {
 }
 
 /* index.html main image box */
-.main-image-box {
+/* .main-image-box {
     background: url(../images/smooth-sea.jpg) no-repeat center center;
     height: 600px;
     width: 65%;
     object-fit: contain;
     clear: left;
     margin-left: 25px;
-}
+} */
 
 
 
@@ -394,11 +425,7 @@ h4 {
 
 /* Styling for relax.html */
 
-.youtube-style {
-    width: 70%;
-    height: 761px;
 
-}
 
 #audio-text {
     color: white;
@@ -421,10 +448,10 @@ h4 {
 
 .contents-style {
     margin-top: 5px !important;
-    margin-right: 8vh;
+
 }
 
-.col-4>img {
+/* .col-4>img {
     object-fit: cover;
     width: 100%;
     height: 200px;
@@ -436,7 +463,7 @@ h4 {
     background-color: #45a29e;
     width: 100%;
 
-}
+} */
 
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
@@ -448,35 +475,37 @@ audio::-webkit-media-controls-panel {
 .image-gif {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
     justify-content: center;
 }
 
 .rounded {
+    align-items: center;
     border: 10px solid #45a29e;
 }
 
-#fix-gif {
-    height: 498px;
-}
+
+
+
 
 .youtube-style {
     border: 10px solid #45a29e;
     border-radius: 10px;
     margin-bottom: 80px;
+    width: 100%;
+    height: 500px;
 }
+
 
 /* Create four equal columns that sits next to each other */
 .gif-assets {
     flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    width: 100%;
 }
 
 .gif-assets img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
+
 }
 
 
@@ -493,7 +522,6 @@ audio::-webkit-media-controls-panel {
 .form-style {
     display: inline-block;
     background-color: #3a3a3a;
-    width: 50%;
     box-shadow: 28px 16px #45a29e;
     border-radius: 10px;
 
