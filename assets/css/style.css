@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+
 @font-face {
     font-family: barlow-condensed;
     src: url(../fonts/barlow-condensed.semibold.ttf);
+    font-display: swap
 }
 
 /* Setting default styling rules */
@@ -272,6 +274,10 @@ a {
 
 #privacy-link>a:hover {
     color: #45a29e;
+}
+
+.main-image {
+    height: 800px;
 }
 
 
