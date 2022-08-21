@@ -276,34 +276,34 @@ a {
 
 
 /* privacy.html style */
+.lower-content {
+    width: 75%;
+}
+
 #privacy-heading {
     font-size: 80px;
     text-align: center;
     margin-bottom: 61px;
 }
 
-.privacy-style {
-    display: block;
-    margin-bottom: 5%;
+.containment {
+    margin: 0 12% 0 25%;
     color: white;
     font-size: 19px;
-    margin-left: 25%;
-    width: 50%;
-}
-
-.privacy-style>div {
     margin-top: 25px;
-    word-spacing: .25em;
+    word-spacing: 0.25em;
 }
 
-h3[id^="policy-"] {
+h3,
+h2[id^="policy-"] {
     text-align: center;
     font-size: 33px;
 }
 
 
 h4 {
-    font-size: 19px;
+    font-size: 26px;
+    letter-spacing: 0;
 }
 
 .policy-text-style {
@@ -311,9 +311,7 @@ h4 {
 }
 
 #table-of-contents {
-    text-align: center;
-    list-style-position: inside;
-    line-height: 43px;
+    line-height: 40px;
 }
 
 .li-style {
@@ -328,16 +326,6 @@ h4 {
     color: #66fcf1;
 }
 
-.imbedded-ul {
-    margin-left: 100px;
-    margin-top: 15px;
-    text-align: left;
-}
-
-#contents-list {
-    background-color: transparent !important;
-}
-
 .privacy-list {
     color: #45a29e;
 }
@@ -346,10 +334,10 @@ h4 {
     color: #ff8080;
 }
 
-:target {
+h3:target {
     background-color: rgba(197, 198, 199, .3);
     border-radius: 6px;
-    padding: 13px;
+    padding: 50px 0 40px 0;
 }
 
 /* return to contents list link */
@@ -357,19 +345,21 @@ h4 {
     border: 2px solid #66fcf1;
     border-radius: 20px;
     width: fit-content;
+    height: fit-content;
     font-family: barlow-condensed, sans-serif;
     text-transform: uppercase;
     position: sticky;
+    margin-top: 41%;
     top: 85%;
-    right: 2%;
     float: right;
+
 }
+
 
 
 .return-to-content>a {
     color: #45a29e;
     padding: 8px;
-    text-decoration: none;
     scroll-behavior: smooth;
     font-size: x-large;
 }
@@ -379,7 +369,6 @@ h4 {
 }
 
 #business-address {
-    margin-left: 40%;
     line-height: 30px;
 }
 
@@ -394,16 +383,6 @@ h4 {
     border-radius: 10px;
     height: 100%;
 }
-
-/* #audio-text>p {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-size: 21px;
-    font-weight: 400;
-    text-align: left;
-    margin: 2%;
-    width: 90%;
-} */
 
 .player-s>img {
     object-fit: cover;
@@ -465,7 +444,6 @@ audio::-webkit-media-controls-panel {
 
 .iframe-container {
     overflow: hidden;
-    /* 16:9 aspect ratio */
     padding-top: 56.25%;
     position: relative;
 }
@@ -545,7 +523,7 @@ textarea {
     transition: background-size 1s, background-color 1s;
 }
 
-/* successful submission page submission.html */
+/* successful submission page submission.html & email-submit.html*/
 
 .submission-page {
     margin-top: 13px;
@@ -635,4 +613,52 @@ textarea {
         font-size: 16px;
         padding: 0;
     }
+
+
+
+    .containment {
+        margin: 0;
+    }
+
+    .button-text {
+        display: none;
+    }
+
+    .privacy-list,
+    .policy-text-style {
+        word-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+    }
+
+    #privacy-heading {
+        font-size: 55px;
+    }
+
+    #table-of-contents {
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .lower-content {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    ol,
+    ul {
+        padding-left: 0;
+    }
+
+    h3,
+    h2[id^="policy-"] {
+        text-align: start;
+    }
+
+    h3:target {
+        background-color: rgba(197, 198, 199, .3);
+        border-radius: 6px;
+        padding: 20px 0 20px 0;
+    }
+
 }
