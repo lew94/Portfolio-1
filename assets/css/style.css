@@ -667,4 +667,8 @@ textarea {
         padding: 20px 0 20px 0;
     }
 
+    .main-image {
+        height: auto;
+    }
+
 }
