@@ -15,7 +15,7 @@ Data is presented to help users achieve their goals, e.g. learning about a produ
 
 **Required: HTML, CSS**
 ***
-# Build a Meditation/Mindfulness/Yoga Website 
+# **Build a Meditation/Mindfulness/Yoga Website**
 ![alt text](assets/images/readpic.png)
 **External user’s goal:**
 
@@ -31,7 +31,12 @@ Data is presented to help users achieve their goals, e.g. learning about a produ
 - Technique lessons
 - Supporting text/images/video demonstrating the technique
 ---
-## First Steps 
+
+# **Initial Steps:**
+
+
+## **Brainstorm:**
+
 For my Mindful site I had to go away and come up with a basic design and build from there.
 Being familiar with Notion I built up my rough work and added styles and designs i wanted to include on my site. 
 
@@ -40,6 +45,23 @@ For my site I called it Elemental Health, And I using earths elements as part of
 I created very broad mock-up's just to see how I liked the style or layout and could use that as jump off point and come up with a webpage layout.
 
 [If you would like to see my rough work for this project](https://like-glitter-61c.notion.site/Rough-Work-a7fc52e597474844b98f4d7677430f10 "Notion Rough Work")
+
+## What is this website about?
+
+## Who is this website for?
+
+## What would it be used for?
+
+---
+# **Layout:**
+
+## Themes:
+
+### Style
+
+### Fonts
+
+## Colours
 
 ## Colours
 I wanted to get the color and theme out the way so I could move on to the pages and layout.
@@ -56,5 +78,30 @@ I did think to included icons as part of the navigation bar, either standalone o
 ![alt text](assets/images/icons.png)
 
 
-## Initial Concept
+# **Page's details:**
+
+
+# **Features:**
+
+## **Frameworks**
+
+## **Media**
+
+## **Inputs**
+
+# **Testing:**
+
+## **Validator**
+## **LightHouse**
+## **Problems/ Bugs**
+
+# **Future Plans**
+
+# **Resources**
+
+# **Resource mentions**
+
+# **Final Thoughts**
+
+# **Acknowledgements**
 
