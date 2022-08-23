@@ -426,6 +426,7 @@ audio::-webkit-media-controls-panel {
 .rounded {
     align-items: center;
     border: 10px solid #45a29e;
+    height: 100%;
 }
 
 .youtube-style {
