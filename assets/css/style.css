@@ -31,8 +31,6 @@ body {
 
 }
 
-
-
 h1,
 h2,
 h3,
@@ -77,15 +75,12 @@ a {
     text-decoration: none;
 }
 
-
-
 /* Header Image and H1 */
 
 .heading-content {
     background: url(../images/heading.jpg);
     background-size: cover;
 }
-
 
 .h1-text {
     text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px black,
@@ -99,8 +94,6 @@ a {
 #heading-link {
     text-decoration: none;
 }
-
-
 
 /* nav bar links style */
 
@@ -120,7 +113,6 @@ a {
     border-bottom: 2px solid #45a29e;
     color: #66fcf1;
 }
-
 
 /* Navbar animation */
 /* Icon Bounce resource from https://github.com/IanLunn/Hover */
@@ -154,7 +146,6 @@ a {
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-
 /* Footer styles */
 #footer-main {
     position: fixed;
@@ -165,7 +156,6 @@ a {
     min-height: 50px;
 
 }
-
 
 .container {
     height: 100%;
@@ -193,7 +183,6 @@ a {
 /* index page heading */
 
 /* Email sign-up styling */
-
 
 .email-sign-up {
     padding: 20px;
@@ -280,7 +269,6 @@ a {
     height: 800px;
 }
 
-
 /* privacy.html style */
 .lower-content {
     width: 75%;
@@ -305,7 +293,6 @@ h2[id^="policy-"] {
     text-align: center;
     font-size: 33px;
 }
-
 
 h4 {
     font-size: 26px;
@@ -361,8 +348,6 @@ h3:target {
 
 }
 
-
-
 .return-to-content>a {
     color: #45a29e;
     padding: 8px;
@@ -377,7 +362,6 @@ h3:target {
 #business-address {
     line-height: 30px;
 }
-
 
 /* Styling for relax.html */
 
@@ -575,7 +559,6 @@ textarea {
     margin: auto;
 }
 
-
 @media (max-width: 600px) {
     .rounded {
         width: 95vw;
@@ -621,8 +604,6 @@ textarea {
         padding: 0;
     }
 
-
-
     .containment {
         margin: 0;
     }
@@ -634,7 +615,7 @@ textarea {
     .privacy-list,
     .policy-text-style {
         word-wrap: break-word;
-        word-break: break-word;
+        word-break: break-all;
         hyphens: auto;
     }
 

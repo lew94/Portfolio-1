@@ -3,13 +3,12 @@
 
 ### **HTML/CSS Essentials**
 ### Diploma in Software Development (E-commerce Applications) <br>
+### **Link to live site - https://lew94.github.io/Portfolio-1**
 <br>
 
 ## **Aim**
 
 For this site, I will build a static front-end site to present useful information to users, using all the technologies that I have learned about so far in HTML and CSS. <br>
-
-
 
 **Potential features to include:**
 
@@ -26,9 +25,6 @@ Required: HTML, CSS
 <br>
 
 ![Web page home](assets/images/readme/readpic.png)
-
-
-
 
 <br>
 
@@ -210,7 +206,6 @@ This Site includes:
 
 ## Frameworks:
 
-
 **Bootstrap**
 
 I am using Bootstrap, for its built-in grid system, I found it very helpful to position and layout the items on the page. Bootstrap comes with a lot of preset features that allowed easy and fast modification to the elements.
@@ -305,7 +300,7 @@ All the HTML and CC was ran through the W3 validator to find any errors or warni
 
 **CSS**
 
-The .css page was copied and pasted into the direct input section of the validator, once it ran it presented the results. No errors found, there were a few warning but this was regarding the vendor extensions that the validator has problems understanding.
+The .css page was copied and pasted into the direct input section of the validator, once it ran it presented the results. No errors found, there were a few warning but this was regarding the vendor extensions that the validator has problems understanding, One warning about the imported Google fonts but the system doesn't scan others code just mind so thats why its flagged.
 
 **HTML**
 
